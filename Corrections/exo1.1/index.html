@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/index.js" defer></script>
+</head>
+<body>
+    <h4>Divisibilité des nombres</h4>
+    <p>Voici 20 nombres aléatoires entre 1 et 100</p>
+    <p>
+    <script>
+        let tab = [];
+        for (let i=0; i<20; i++) {
+            tab[i] = (Math.floor(Math.random() * 100)) + 1;
+            document.write(tab[i] + " ")
+        }
+    </script>
+    </p>
+    <input type="number" id="myInput" min="2" max="9" placeholder="" />
+    <input type="button" id="myButton" onclick='checkDivisibility();' value='Diviseur(s)' />
+
+</body>
+</html>
+

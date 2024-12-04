@@ -1,0 +1,22 @@
+div#gameArea div {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid black;
+    box-shadow: 7px 7px 3px #c0c0c0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#gameArea img {
+    width: 150px;
+    height: 150px;
+}
+
+#output
+{
+    font-family: Arial;
+}
